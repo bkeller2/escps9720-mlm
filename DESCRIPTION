@@ -1,0 +1,16 @@
+Package: hlm
+Title: Companion Package for ESCPS 97720 - Multilevel Modeling
+Version: 1.0.0
+Authors@R: 
+    person(given = "Brian",
+           family = "Keller",
+           role = c("aut", "cre"),
+           email = "btkeller@missouri.edu")
+Description: This is a companion package to add some useful functions and data sets for ESCPS 97720 - Multilevel Modeling.
+License: GPL (>= 3)
+Depends: R (>= 4.0.0)
+Imports: methods, stats, utils, lme4, lmerTest, rstudioapi, rstanarm, remotes
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
